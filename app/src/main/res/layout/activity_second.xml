@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vladik.a24_12_17_home_work.SecondActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name is: "
+        android:id="@+id/name_output"
+        android:layout_margin="16dp"
+        android:visibility="invisible"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone is: "
+        android:id="@+id/phone_output"
+        android:layout_below="@id/name_output"
+        android:layout_margin="16dp"
+        android:visibility="invisible"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_below="@id/phone_output"
+        android:layout_height="wrap_content"
+        android:text="Adress is: "
+        android:id="@+id/adress_output"
+        android:layout_margin="16dp"
+        android:visibility="invisible"
+        />
+
+
+
+</RelativeLayout>

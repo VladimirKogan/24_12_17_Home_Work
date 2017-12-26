@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vladik.a24_12_17_home_work.MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input your name"
+        android:id="@+id/name_input"
+        android:layout_margin="16dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input your phone"
+        android:inputType="phone"
+        android:layout_below="@id/name_input"
+        android:id="@+id/phone_input"
+        android:layout_margin="16dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input your adress"
+        android:layout_below="@id/phone_input"
+        android:id="@+id/adress_input"
+        android:layout_margin="16dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerVertical="true"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:id="@+id/name_btn"
+            android:layout_margin="18dp"
+            /><Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone"
+            android:id="@+id/phone_btn"
+            android:layout_margin="18dp"
+
+            /><Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adress"
+            android:id="@+id/adress_btn"
+            android:layout_margin="18dp"
+
+            />
+
+    </LinearLayout>
+</RelativeLayout>
